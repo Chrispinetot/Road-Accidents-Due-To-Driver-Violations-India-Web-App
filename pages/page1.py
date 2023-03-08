@@ -46,7 +46,7 @@ choropleth_dropdown = html.Div([
 graph_1 = dbc.Card(dcc.Graph(id='india_map', config={'displayModeBar': False}, figure={}))
 
 # define the page layout
-layout = dbc.Container([
+app.layout = dbc.Container([
     dbc.Row([
         html.Center(html.H3("Road Accident Causes Per State")),
         html.Br(),
