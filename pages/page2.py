@@ -47,7 +47,7 @@ bar_dropdown = html.Div([
 graph_2 = dbc.Card(dcc.Graph(id='bar_graph', config={'displayModeBar': False}, figure={}))
 
 # define the page layout
-app.layout = dbc.Container([
+layout = dbc.Container([
     dbc.Row([
         html.Center(html.H3("Road Accident Causes Per Region")),
     ]),
