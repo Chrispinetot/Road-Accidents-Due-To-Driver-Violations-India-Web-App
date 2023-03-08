@@ -5,7 +5,7 @@ import dash_bootstrap_components as dbc
 import json
 import pandas as pd
 import plotly.express as px
-from index import app
+from app import app
 
 # -- Import and clean data (importing csv into pandas)
 data = pd.read_csv("response.csv")
