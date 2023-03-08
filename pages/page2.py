@@ -6,7 +6,7 @@ import pandas as pd
 import plotly.express as px
 from my_app import app
 
-# -- Import and clean data (importing csv into pandas)
+# -- import and clean data (importing csv into pandas)
 data = pd.read_csv("response.csv")
 print(data[:5])
 
