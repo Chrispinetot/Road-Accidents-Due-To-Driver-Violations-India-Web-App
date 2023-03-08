@@ -3,7 +3,7 @@ from dash import html, dcc
 from dash.dependencies import Input, Output
 
 # connect to main app.py
-from app import app
+from app import app, server
 
 # connect to your app pages
 from pages import page1, page2
